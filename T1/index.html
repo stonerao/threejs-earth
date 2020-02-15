@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Earth</title>
+    <script src="./libs/three.js"></script>
+    <script src="./libs/OrbitControls.js"></script>
+    <script src="./libs/stats.min.js"></script>
+    <script src="./libs/tween.min.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/index.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #GL {
+            width:100%;
+            position: absolute;
+            top:0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="GL">
+
+
+    </div>
+    <script>
+        var GlEarth = new CreateEarth();
+    </script>
+</body>
+
+</html>
